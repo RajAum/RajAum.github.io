@@ -1,0 +1,322 @@
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto !important;
+    padding: 0;
+    border: 3px solid black;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+label {
+  color: black;
+  float: left;
+  width: 15em;
+  padding-left: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+input {
+  width: 15em;
+  margin: 0 0 1em 1em;
+}
+.choice{
+  padding-left: 10em;
+}
+[type="radio"] {
+      width: 20px;
+      margin : 0.5em;
+}
+.link{
+  width: 10em;
+  margin-left: 3em;
+  margin-bottom:1em;
+  margin-top : 1em;
+  padding : 0 0 0 0em;
+}
+#button, #reset {
+  width: 7em;
+  background-color: silver;
+  box-shadow: 2px 2px 0 blue; }
+  #button {
+  margin-left: 9em;
+}
+#submit, #reset {
+  width: 10em;
+  margin-left: 15em;
+  margin-bottom:1em;
+  margin-top : 1em;
+  padding : 0 0 0 0em;
+}
+#right-submit{
+  float :right;
+  width: 12em;
+  margin-top : -50px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width : 70%;
+    margin: 15%;
+}
+thead {
+    background-color:  #ebebe0;
+}
+th, td {
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.thick {
+font-weight: bold;
+}
+
+h1, h2, h3, p {
+    padding: 0;
+}
+h2 {
+  margin-left: 1em;
+}
+a {
+    font-weight: bold;
+}
+header {
+    background:  #85e0e0; 
+    padding-top: 0.188em;
+    padding-bottom: 0.188em;
+    height: 7em;
+    text-align : center;
+}
+* {
+  box-sizing: border-box;
+}
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33.3%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header img{
+    float: right; 
+    width: 15%;
+    height: 100%;
+    padding-right:2em;
+}
+h2{
+    font-size: 170%;
+    font-weight: 700%;
+    text-indent: 20px;
+    margin-bottom: 0.1em;
+    padding-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-top: 0.01em;
+}
+h5{
+    font-size: 220%;
+    font-weight: 200%;
+    text-indent: 20px;
+    margin-bottom: 0.1em;
+    padding-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-top: 0.01em;
+}
+d{
+    ::first-letter;
+    font-size: 220%;
+}
+
+h3{
+    font-size:90%;
+    text-indent: 20px;
+    margin-top:0.1em;
+    padding-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+p{
+    font-size: 85%;
+}
+main {
+	clear: left;
+}
+
+#nav_menu a {
+	font-weight: normal;
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	width: 20%;
+}
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+#nav_menu a.current {
+	color: white;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li a:hover{
+	background-color: gray;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#nav_list {
+	float: left;
+	padding: 0;
+	width: 20%;
+	margin-left: -1em;
+}
+#nav_list ul {
+	list-style-type: none;
+}
+#nav_list ul li {
+	margin-bottom: .5em;
+	border: 2px solid black;
+	background-color: orange;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 .5em .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+section {
+    padding: 2em 5% 2em 5%;
+    float: left;
+    width: 100%;
+    height: 100% 
+}
+section h1 { 
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+section h4 {
+	font-size: 115%;
+	text-color: orange;
+	margin: .8em 0 .4em 0;
+}
+section p {
+	margin-bottom: .5em;
+	width:70%;
+}
+section h4{
+    font-size: 110%;
+    margin: .8em 0 .5em 0;
+}
+section p a img{
+    max-width: 19%;
+    min-width: 95px;
+}
+
+section a:link, main a:visited { 
+    color: orange; 
+}
+section a:hover, main a:focus { 
+    color: green;
+}
+footer {
+    clear: both;
+    border-top: 0.125em solid black;
+    padding: .9375em 1.875% .9375em 1.875%;
+    background:  #85e0e0; 
+} 
+footer p {
+    font-size: 75%;
+    text-align: center !important;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 800px) {
+	html {
+		background-image: none;
+	}
+	body {
+		font-size: 90%;
+		box-shadow: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+    #nav_list {
+        float: none;
+        width: 50%;
+        margin: 1em 20%;
+    }
+    #nav_list ul li a{
+        text-align: center;
+    }
+	.slicknav_menu {
+		display: block;
+	}
+	
+    section{
+        float: none;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+	header h2 {
+		font-size: 180%;
+	}
+	header h3 {
+		font-size: 115%;
+	}
+	section h1 {
+		font-size: 130%;
+	}
+}
